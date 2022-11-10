@@ -1,0 +1,411 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+* {
+  
+  margin:0%;
+}
+.image{
+  width:50%;
+}
+
+
+#navbar {
+  background-color: black;      
+  font-size: 30px;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  padding:1%;
+  margin-top:0%;
+   
+}
+
+body{
+  background-size:cover;
+  
+}
+/* The above is my navigation bar */
+.homebutton {
+  color: white;
+  border: none;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-decoration: none;
+}
+.homebutton:hover {
+  opacity: 0.7;
+}
+
+.homebutton:active {
+  opacity: 0.5;
+}
+/* Above is the home button in the navigation bar */
+
+.aboutbutton {
+  color: white;
+  border: none;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-decoration: none;
+  
+}
+
+.aboutbutton:hover {
+  opacity: 0.7;
+}
+
+.aboutbutton:active {
+  opacity: 0.5;
+}
+
+
+/* Above is the about button */
+.contactbutton {
+color: white;
+border: none;
+border-width: 1px;
+border-radius: 2px;
+cursor: pointer;
+transition: opacity 0.15s;
+text-decoration: none;
+}
+
+.contactbutton:hover {
+  opacity: 0.7;
+}
+
+.contactbutton:active {
+  opacity: 0.5;
+}
+
+.homebody{
+  text-align:center;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Above is the contact button */
+
+.headerindex {
+  color: rgb(6, 13, 221);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Island Moments', cursive;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+/* Above is H1 on index html page */
+.charity {
+  color:black;
+  font-size: 23px;
+  font-weight: bolder;
+  font-style: oblique;
+  position: relative;
+  left: 30px;
+  
+}
+/* Above is charity text */
+/* .deforestbadge {
+  text-align:center;
+
+} */
+
+/* .text{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+} */
+
+p {
+  color: rgb(16, 15, 15);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* .images{
+  text-align:center;
+  display:flex;
+  justify-content: center;
+
+} */
+
+
+/* .gadgetimg {
+  width: 33%;
+  height: 45%;
+  border-radius: 12%;
+  position: relative;
+  left: 62%; 
+
+} */
+
+/* Above is Gadget images on my index page */
+.selection {
+  position: absolute;
+  left: 61%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.familyelec {
+  font-size: 30px;
+  font-style:oblique;
+  font-weight: bold;
+  text-align:center;
+  
+}
+/* Above is Family electrical paragraph on index */
+.training {
+  color: rgb(226, 206, 26);
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+/* Above is Training paragraph on the index */
+
+
+.safetycertif {
+  width: 15%;
+  height: 20%;
+  position: relative;
+  left: 15%;
+  margin-bottom: 1%;
+}
+/* Above is safety certificate image on index */
+
+
+/* NEW SECTION BELOW THIS WILL BE THE ABOUT PAGE */
+
+.aboutbody{
+  text-align:center;
+  background-image: url(background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.headerabout{
+  color: rgb(6, 13, 221);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Island Moments', cursive;
+  text-align: center;
+}
+
+
+.missionstatement{
+  font-size: 23px;
+  color:red;
+  font-weight: bold;
+  position:relative;
+  text-decoration: underline;
+  
+}
+
+.mission1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+}
+
+.mission2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+}
+
+.saplingimg {
+  width: 20%;
+  height: 12%;
+  position:relative;
+  left: 79%;
+  margin-top: -1%;
+  margin-left: -2%;
+  
+}
+
+.history{
+  font-family: Arial, Helvetica, sans-serif;
+  color:red;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: underline;
+
+}
+
+.history1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+}
+
+.history2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+}
+
+.familybusinessimg {
+  width: 20%;
+  height: 15%;
+  position: relative;
+  left: 50%;
+  margin-top: -3%;
+}
+
+
+.services{
+  color: red;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  left: 3%;
+  text-decoration: underline;
+}
+
+.services1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+}
+
+.benefits{
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+  left: 3%
+
+}
+
+.servicesimg {
+  width: 17%;
+  height: 15%;
+  position: relative;
+  left: 71%;
+  margin-top: -5%;
+  
+}
+
+.reviews{
+  color: red;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: underline;
+
+}
+
+.customer{
+  font-family: 'Open-Sans', sans-serif;
+  color: gold;
+  font-weight: bolder;
+  font-size: 22px;
+  position: relative;
+  left: 3%;
+  margin-bottom: 1%;
+}
+
+
+/* EVERYTHING BELOW THIS IS THE CONTACT PAGE */ 
+
+.contactbody{
+  display:flex;
+  flex-direction:column;
+
+  background-image: url(contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.headercontact {
+  color: rgb(6, 13, 221);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Island Moments', cursive;
+  text-align:start;
+  position: relative;
+  left: 12%;
+  margin:auto;
+  padding: 10px;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize:both;
+}
+
+input[type=submit] {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  padding: 12px, 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.container {
+  width: 50%;
+  margin-left: 1%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* Classes and IDs allow us to target a particual element */
+
+/* id="navbar" #navbar id is a different naming convention */
+/* content, padding, border, margin */
+
+/*  background-image: url(background.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+/* display:flex; makes page more flexible*/
+/* flex-direction: column;
+align-items: center; */
+/* * asterix means target every single item */
+/* Start from top to bottom when styling */
+/*  */
+

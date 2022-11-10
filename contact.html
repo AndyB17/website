@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Us</title>
+</head>
+
+<body class="contactbody">
+  <div id="navbar">
+    <a class="homebutton" href="index.html">Home</a>
+    <a class="aboutbutton" href="about.html">About</a>
+    <a class="contactbutton" href="contact.html">Contact</a>
+  </div>
+  <div>
+    <h1 class="headercontact">
+      How to contact Sparkie's
+    </h1>
+  </div>
+
+  <div class="container">
+    <form action="contact.html">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname"> Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" placeholder="Your e-mail..">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="england">
+          England
+        </option>
+        <option value="ireland">Ireland</option>
+        <option value="scotland">Scotland</option>
+        <option value="wales">Wales</option>
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
+      <input type="submit" value="submit">
+    </form>
+  </div>
+
+</body>
+
+</html>
